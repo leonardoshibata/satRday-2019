@@ -1,0 +1,85 @@
+---
+title: "Transparência e reprodutibilidade de consultorias na área da saúde com o R"
+author: "Leonardo Shibata"
+date: "30/11/2019"
+output: ioslides_presentation
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = FALSE)
+library(here)
+```
+
+## 1 Datasus
+
+![tabnet.datasus.gov.br](figuras/figura01.png){width=100%}
+
+
+
+
+<div class="notes">
+
+Informações sobre:
+
+- nascimentos;
+- mortes;
+- internações hospitalares;
+- consultas;
+- estabelecimentos e profissionais de saúde;
+
+</div>
+
+
+
+## 2 Pacotes
+
+- [read.dbc](https://github.com/danicat/read.dbc): importação dos microdados
+- [datasus](https://github.com/rpradosiqueira/datasus): scraping da página do Tabnet
+- [brmap](https://github.com/italocegatta/brmap): mapas Brasil
+
+<br>
+
+- [microdatasus](https://github.com/rfsaldanha/microdatasus): download dos microdados
+
+
+
+# 3 Aplicações
+
+## Pirâmide Etária
+
+![](figuras/01-Piramide-etaria-SP.png){width=100%}
+
+
+## Óbitos por causas externas, Pará, 2008-2017
+
+![](figuras/02-PA-causas-externas.png){width=100%}
+
+
+## Mortalidade Materna
+
+![](figuras/03-PA-obitos-maternos.png){width=100%}
+
+
+## Causas de óbitos, Santo André, 2017
+
+![](figuras/04-Santo-Andre-obitos.png){width=70%}
+
+
+## Hospitais de Pequeno Porte
+
+![](figuras/05-HPPs.png){width=100%}
+
+
+
+## 4 Reprodutibilidade
+
+- RMarkdown
+- Parametrização
+- Gerenciamento de pacotes
+- Virtualização de containers com o Docker
+
+
+
+# Obrigado!
+
+leonardoshibata.github.io/satRday-2019
