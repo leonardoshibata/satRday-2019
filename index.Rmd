@@ -10,7 +10,7 @@ knitr::opts_chunk$set(echo = FALSE)
 library(here)
 ```
 
-## 1 Datasus
+## 1. Datasus
 
 ![tabnet.datasus.gov.br](figuras/figura01.png){width=100%}
 
@@ -31,7 +31,7 @@ Informações sobre:
 
 
 
-## 2 Pacotes
+## 2. Pacotes
 
 - [read.dbc](https://github.com/danicat/read.dbc): importação dos microdados
 - [datasus](https://github.com/rpradosiqueira/datasus): scraping da página do Tabnet
@@ -43,7 +43,7 @@ Informações sobre:
 
 
 
-# 3 Aplicações
+# 3. Aplicações
 
 ## Pirâmide Etária
 
@@ -55,7 +55,7 @@ Informações sobre:
 ![](figuras/02-PA-causas-externas.png){width=100%}
 
 
-## Mortalidade Materna
+## Investigação de óbitos maternos, Pará, 2008-2017
 
 ![](figuras/03-PA-obitos-maternos.png){width=100%}
 
@@ -71,7 +71,7 @@ Informações sobre:
 
 
 
-## 4 Reprodutibilidade
+## 4. Reprodutibilidade
 
 - RMarkdown
 - Parametrização
